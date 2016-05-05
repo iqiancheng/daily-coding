@@ -1,13 +1,16 @@
 package com.challions.daily.sort;
 
 
+import org.junit.Test;
+
 public class RBTreeTest {
 
     private static final int a[] = {10, 40, 30, 60, 90, 70, 20, 50, 80};
     private static final boolean mDebugInsert = false;    // "插入"动作的检测开关(false，关闭；true，打开)
     private static final boolean mDebugDelete = false;    // "删除"动作的检测开关(false，关闭；true，打开)
 
-    public static void main(String[] args) {
+    @Test
+    public void test(String[] args) {
         int i, ilen = a.length;
         RBTree<Integer> tree = new RBTree<Integer>();
 
