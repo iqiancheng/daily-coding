@@ -10,7 +10,7 @@ public class RBTreeTest {
     private static final boolean mDebugDelete = false;    // "删除"动作的检测开关(false，关闭；true，打开)
 
     @Test
-    public void test(String[] args) {
+    public void test() {
         int i, ilen = a.length;
         RBTree<Integer> tree = new RBTree<Integer>();
 
