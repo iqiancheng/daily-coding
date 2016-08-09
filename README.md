@@ -11,7 +11,7 @@ add the following lines:
 45 23 * * 1-5 cd /usr/local/xxxx/daily-coding && sh autopush.sh &
 ```
 ##Review
-review ``autopush.sh``,simple as well
+review ``autopush.sh``, simple as well
 ```bash
 #/bin/sh
 msg=$(date "+  %F %H:%M:%S auto push via robot" )
