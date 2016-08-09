@@ -1,6 +1,7 @@
 # Robot push
 Auto push code to github regularly.
 
+## Usage 
 ```sh
 $ crontab -e
 ```
