@@ -1,4 +1,4 @@
-# Robot push
+# Auto Pusher
 Auto push code to github regularly.
 
 ## Usage 
