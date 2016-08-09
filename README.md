@@ -19,7 +19,7 @@ msg=$(date "+  %F %H:%M:%S auto push via robot" )
 echo ${msg}
 git checkout robot
 git pull
-echo -n '- '$msg > daily-rolling.md
+echo -e '- '${msg}'\n' >> daily-rolling.md # echo -e 转义; \n 代表换行
 git add .
 git commit -m "${msg}"
 git push origin robot
