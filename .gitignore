@@ -4,6 +4,7 @@
 /.settings
 /.idea
 *.iml
+.gitignore
 **/rebel.xml
 **/rebel-remote.xml
 **/log4j.properties
