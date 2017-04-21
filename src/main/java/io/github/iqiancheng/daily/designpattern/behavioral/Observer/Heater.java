@@ -3,7 +3,7 @@ package io.github.iqiancheng.daily.designpattern.behavioral.Observer;
 import java.util.Observable;
 
 /**
- * Created by iamya on 5/5/2016.
+ * Created by qian.cheng on 5/5/2016.
  */
 public class Heater extends Observable {
 

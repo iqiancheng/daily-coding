@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * Created by iamya on 5/5/2016.
+ * Created by qian.cheng on 5/5/2016.
  */
 public class Thermometer extends Observable implements Observer {
     public void update(Observable observable, Object o) {

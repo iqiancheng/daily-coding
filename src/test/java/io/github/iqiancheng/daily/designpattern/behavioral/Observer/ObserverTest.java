@@ -3,7 +3,7 @@ package io.github.iqiancheng.daily.designpattern.behavioral.Observer;
 import org.junit.Test;
 
 /**
- * Created by iamya on 5/5/2016.
+ * Created by qian.cheng on 5/5/2016.
  */
 
 public class ObserverTest {
